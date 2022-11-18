@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/geonews"
+            android:title="@string/geo_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/arynews"
+            android:title="@string/ary_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ptvnews"
+            android:title="@string/ptv_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/samaatv"
+            android:icon="@drawable/samaatv"
+            android:title="@string/samaa_tv"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/expressnews"
+            android:icon="@drawable/expressnews"
+            android:title="@string/express_news"
+            android:menuCategory="secondary"/>
+    </group>
+
+        <item
+            android:title="Sports"
+            android:menuCategory="secondary">
+            <menu>
+                <group android:checkableBehavior="all">
+                <item
+                    android:id="@+id/ptvsports"
+                    android:icon="@drawable/ptvsports"
+                    android:title="@string/ptv_sports"
+                    android:menuCategory="secondary">
+                </item>
+                <item
+                    android:id="@+id/tensports"
+                    android:icon="@drawable/tensports"
+                    android:title="@string/ten_sports"
+                    android:menuCategory="secondary">
+                </item>
+                <item
+                    android:id="@+id/btsports"
+                    android:icon="@drawable/btsports"
+                    android:title="@string/bt_sports"
+                    android:menuCategory="secondary">
+                </item>
+                <item
+                    android:id="@+id/skysports"
+                    android:icon="@drawable/skysoprts"
+                    android:title="@string/sky_sports"
+                    android:menuCategory="secondary">
+                </item>
+                </group>
+            </menu>
+        </item>
+
+    <item
+        android:title="International News"
+        android:menuCategory="secondary">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/bbcnews"
+                    android:icon="@drawable/bbc"
+                    android:title="BBC News"
+                    android:menuCategory="secondary">
+                </item>
+                <item
+                    android:id="@+id/aljazeranews"
+                    android:icon="@drawable/aljazeera"
+                    android:title="AL-JAZEERA News"
+                    android:menuCategory="secondary">
+                </item>
+                <item
+                    android:id="@+id/cnnnews"
+                    android:icon="@drawable/cnn"
+                    android:title="CNN News"
+                    android:menuCategory="secondary">
+                </item>
+                <item
+                    android:id="@+id/foxnews"
+                    android:icon="@drawable/foxnews"
+                    android:title="FOX News"
+                    android:menuCategory="secondary">
+                </item>
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

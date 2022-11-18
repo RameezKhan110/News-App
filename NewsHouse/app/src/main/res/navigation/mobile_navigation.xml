@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.newshouse.ui.geo.HomeFragment"
+        android:label="@string/geo_news"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.newshouse.ui.ary.GalleryFragment"
+        android:label="@string/ary_news"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.newshouse.ui.ptv.SlideshowFragment"
+        android:label="@string/ptv_news"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/samaatv"
+        android:name="com.example.newshouse.Fragments.SammaTv"
+        android:label="@string/samaa_tv"
+        tools:layout="@layout/fragment_samma_tv" />
+    <fragment
+        android:id="@+id/expressnews"
+        android:name="com.example.newshouse.Fragments.ExpressNews"
+        android:label="@string/express_news"
+        tools:layout="@layout/fragment_express_news" />
+    <fragment
+        android:id="@+id/ptvsports"
+        android:name="com.example.newshouse.Fragments.PtvSports"
+        android:label="PTV Sports"
+        tools:layout="@layout/fragment_ptv_sports" />
+    <fragment
+        android:id="@+id/tensports"
+        android:name="com.example.newshouse.Fragments.Tensports"
+        android:label="TEN Sports"
+        tools:layout="@layout/fragment_tensports" />
+    <fragment
+        android:id="@+id/btsports"
+        android:name="com.example.newshouse.Fragments.Btsports"
+        android:label="BT Sports"
+        tools:layout="@layout/fragment_btsports" />
+    <fragment
+        android:id="@+id/skysports"
+        android:name="com.example.newshouse.Fragments.Skysports"
+        android:label="SKY Sports"
+        tools:layout="@layout/fragment_skysports" />
+    <fragment
+        android:id="@+id/bbcnews"
+        android:name="com.example.newshouse.Fragments.BbcNews"
+        android:label="BBC News"
+        tools:layout="@layout/fragment_bbc_news" />
+    <fragment
+        android:id="@+id/aljazeranews"
+        android:name="com.example.newshouse.Fragments.AljazeraNews"
+        android:label="AL-JAZEERA News"
+        tools:layout="@layout/fragment_aljazera_news" />
+    <fragment
+        android:id="@+id/cnnnews"
+        android:name="com.example.newshouse.Fragments.CnnNews"
+        android:label="CNN News"
+        tools:layout="@layout/fragment_cnn_news" />
+    <fragment
+        android:id="@+id/foxnews"
+        android:name="com.example.newshouse.Fragments.FoxNews"
+        android:label="FOX News"
+        tools:layout="@layout/fragment_fox_news" />
+</navigation>
